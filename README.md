@@ -1,28 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 setup boilerplate
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## History
 
-## Setup
+1. Created Studio Freight [Lenis](https://github.com/studio-freight/lenis/) smooth scroll library plugin.
 
-Make sure to install the dependencies:
+2. Added [UnoCSS](https://github.com/unocss/unocss) icons and configuration.
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
+3. Adding [NuxtContent](https://content.nuxtjs.org) to create a mini blog.
 
 ## Development Server
 
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Production
@@ -30,13 +21,11 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
