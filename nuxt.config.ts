@@ -6,5 +6,9 @@ export default defineNuxtConfig({
   unocss: {
     preflight: true,
   },
-  content: {},
+  content: {
+    highlight: {
+      theme: "dark-plus",
+    },
+  },
 });

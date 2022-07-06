@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ContentDoc />
     <div class="i-carbon-sun" />
     <div class="scroll-tester"></div>
     <div class="i-carbon-moon" />
@@ -8,11 +9,11 @@
 
 <style>
 .i-carbon-sun {
-  color: gold;
+  color: black;
   margin-inline: auto;
 }
 .i-carbon-moon {
-  color: blue;
+  color: black;
   margin-inline: auto;
 }
 .scroll-tester {
@@ -21,15 +22,6 @@
   border: 1px solid darkblue;
   border-radius: 5px;
   margin: 20px auto;
-  background-image: linear-gradient(
-    to bottom,
-    yellow,
-    gold,
-    orange,
-    orangered,
-    purple,
-    blue,
-    darkblue
-  );
+  background-image: linear-gradient(to bottom, lightgray, black);
 }
 </style>
